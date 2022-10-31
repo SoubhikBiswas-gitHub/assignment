@@ -5,6 +5,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   color: var(--text-white);
+  background-color: var(--bg-black);
   font-family:  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

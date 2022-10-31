@@ -35,12 +35,12 @@ const dataDB = [
 ];
 
 const MobileScroll = () => {
-  const [imgIndex, setImgIndex] = useState[0];
+  const [imgIndex, setImgIndex] = useState(0);
   return (
     <div className="max-width flex mobile-scroll">
       <div className="scroll-screen-wrapper">
         {dataDB.map((data, index) => (
-          <div className="scroll-screen">
+          <div className="scroll-screen" key={index}>
             <ScreenText
               data={data}
               key={index}
@@ -54,6 +54,7 @@ const MobileScroll = () => {
         <div className="mobile">
           <div className="mobile-screen flex absolute-center">
             <img
+            key={dataDB[imgIndex].imgURL}
               src={dataDB[imgIndex].imgURL}
               alt="img"
               className="mobile-img slide-in-right"
