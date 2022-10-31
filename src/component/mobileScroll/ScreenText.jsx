@@ -7,7 +7,7 @@ const ScreenText = ({ data, index, setImgIndex }) => {
   const options = {
     root: null,
     rootMargin: "0px",
-    threshold: 0.6,
+    threshold: 0.5,
   };
 
   const observerText = (entries) => {
