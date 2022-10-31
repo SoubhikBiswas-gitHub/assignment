@@ -1,19 +1,15 @@
 @import "./component/common/style/common.css"; 
-@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 body {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
   color: var(--text-white);
   background-color: var(--bg-black);
-  font-family:  sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Gilroy-Bold', sans-serif;
-font-family: 'Gilroy-Heavy', sans-serif;
-font-family: 'Gilroy-Light', sans-serif;
-font-family: 'Gilroy-Medium', sans-serif;
-font-family: 'Gilroy-Regular', sans-serif;
+  
   
 }
 
